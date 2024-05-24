@@ -40,3 +40,4 @@ def calcular_total_a_pagar():
 
 
 calcular_total_a_pagar()
+x=33
