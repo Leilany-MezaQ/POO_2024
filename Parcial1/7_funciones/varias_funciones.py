@@ -19,3 +19,4 @@ def getCalculadora(num1,num2,operacion):
         elif operacion=="4" or operacion=="/" or operacion=="DIVISION":
             resultado=f"{num1}/{num2}={int(num1)/int(num2)}"      
         return resultado
+print("")

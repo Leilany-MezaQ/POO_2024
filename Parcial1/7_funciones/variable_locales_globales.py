@@ -20,8 +20,3 @@ resultado_perimetro = calcular_perimetro_rectangulo(base, altura)
 
 print(resultado_area)
 print(resultado_perimetro)
-
- 
-     
-     
-    
