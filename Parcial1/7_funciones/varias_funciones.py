@@ -20,3 +20,7 @@ def getCalculadora(num1,num2,operacion):
             resultado=f"{num1}/{num2}={int(num1)/int(num2)}"      
         return resultado
 print("")
+
+
+
+

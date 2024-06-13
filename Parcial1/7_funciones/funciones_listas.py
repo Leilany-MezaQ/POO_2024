@@ -49,3 +49,9 @@ print(f"el numero 23 se encontro: {cuantos}")
 print(paises)
 paises.extend(numeros)
 print(paises)
+
+
+
+
+
+

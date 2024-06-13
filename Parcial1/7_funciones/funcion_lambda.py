@@ -14,3 +14,7 @@ numeros_pares = list(filter(lambda x: x % 2 == 0, numeros))
 
 # Imprimimos el resultado
 print(numeros_pares)  # Esto imprimirá [2, 4, 6, 8, 10]
+
+
+
+

@@ -26,3 +26,10 @@ def actualizar_pelicula(lista_peliculas, nombre_pelicula, nuevo_nombre):
         print(f"Película actualizada: '{nombre_pelicula}' -> '{nuevo_nombre}'.")
     else:
         print(f"Película '{nombre_pelicula}' no encontrada.")
+        
+        
+        
+        
+        
+        
+        
