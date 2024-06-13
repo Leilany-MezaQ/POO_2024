@@ -13,3 +13,8 @@ def mostrar_cuadrados_for(n):
 
 # Mostrar los cuadrados de los primeros 60 números naturales
 mostrar_cuadrados_for(60)
+
+
+
+
+

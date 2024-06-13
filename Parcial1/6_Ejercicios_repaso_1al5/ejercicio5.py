@@ -9,3 +9,10 @@ if numero1 <= numero2:
         print(num)
 else:
     print("El primer número debe ser menor o igual al segundo.")
+    
+    
+    
+    
+    
+    
+    

@@ -6,3 +6,9 @@ def calcular_porcentaje():
     print(f"{porcentaje}% de {numero} es igual a {resultado}")
 
 calcular_porcentaje()
+
+
+
+
+
+

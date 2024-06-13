@@ -9,3 +9,10 @@ def mostrar_impares():
             print(num)
 
 mostrar_impares()
+
+
+
+
+
+
+

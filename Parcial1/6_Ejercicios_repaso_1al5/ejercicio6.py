@@ -7,3 +7,9 @@ def mostrar_tablas_multiplicar():
         print()  # Línea en blanco entre tablas
 
 mostrar_tablas_multiplicar()
+
+
+
+
+
+

@@ -39,3 +39,8 @@ print(type(cadena2))
 print(type(lista))
 print(type(tupla))
 print(type(dict))
+
+
+
+
+

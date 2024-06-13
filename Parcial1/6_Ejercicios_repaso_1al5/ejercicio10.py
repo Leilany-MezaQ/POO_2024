@@ -13,3 +13,10 @@ def contar_aprobados_reprobados():
     print(f"Reprobados: {reprobados}")
 
 contar_aprobados_reprobados()
+
+
+
+
+
+
+

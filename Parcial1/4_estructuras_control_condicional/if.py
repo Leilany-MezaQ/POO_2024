@@ -51,3 +51,8 @@ elif color=="verde":
     print("soy el color verde")
 else:
     print("No soy ninguno de los anteriores")
+    
+    
+    
+    
+    

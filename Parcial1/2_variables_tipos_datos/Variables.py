@@ -23,3 +23,9 @@ print(type(altura))
 print(type(ciudad))
 print(type(logico))
 print(type(caracter))
+
+
+
+
+
+

@@ -37,3 +37,7 @@ for nombre, carrera, calificacion_final, leyenda in alumnos:
 
 print(f"Promedio de calificaciones finales: {promedio_calificaciones_finales:.2f}")
 
+
+
+
+

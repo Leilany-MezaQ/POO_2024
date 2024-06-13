@@ -23,3 +23,10 @@ multi=0
 for i in range(1,11):
   multi=i*numero
   print(f"{numero} X {i} = {multi}")
+  
+  
+  
+  
+  
+  
+  

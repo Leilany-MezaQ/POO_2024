@@ -10,3 +10,9 @@ print("Hola mi pais es " +Pais+ " esta en el continente " +Continente)
 # Comentarios para indicar el tipo de dato
 # La variable 'pais' es de tipo cadena (string)
 # La variable 'continente' también es de tipo cadena (string)
+
+
+
+
+
+
