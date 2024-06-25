@@ -6,7 +6,7 @@ resultado = mezclar_ingredientes("harina", "azúcar")
 
 # Imprimimos el resultado
 print(resultado)  # Esto imprimirá "Mezclando harina con azúcar"
-[10:08 p.m., 10/6/2024] Ángel De Jisus: # Lista de números
+[10:08 p.m., 10/6/2024] # Lista de números
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # Usamos una función lambda para filtrar los números pares
