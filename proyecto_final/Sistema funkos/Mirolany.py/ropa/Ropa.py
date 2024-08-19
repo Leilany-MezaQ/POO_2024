@@ -32,3 +32,10 @@ class Ropa(Producto):
     def actualizar_stock(self, cantidad):
         self.cantidad_disponible += cantidad
         self.guardar_en_db()
+
+
+
+
+
+
+

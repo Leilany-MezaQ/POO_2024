@@ -11,3 +11,8 @@ class Funko:
 
     def actualizar_categoria(self, nueva_categoria):
         self.categoria = nueva_categoria
+
+
+
+
+

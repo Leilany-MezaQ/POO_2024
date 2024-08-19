@@ -33,3 +33,9 @@ class Pedido:
         pedidos = cursor.fetchall()
         cursor.close()
         return [Pedido(p['id'], p['fecha'], p['cliente_id'], p['monto_total']) for p in pedidos]
+
+
+
+
+
+

@@ -132,3 +132,8 @@ class Proveedor:
         self.nombre = nombre
         self.direccion = direccion
         self.telefono = telefono
+
+
+
+
+

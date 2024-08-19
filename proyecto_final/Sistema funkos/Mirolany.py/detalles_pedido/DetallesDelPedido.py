@@ -23,3 +23,6 @@ class DetallesDelPedido:
         detalles = cursor.fetchall()
         cursor.close()
         return [DetallesDelPedido(d['pedido_id'], d['producto_id'], d['cantidad'], d['precio_total']) for d in detalles]
+
+
+

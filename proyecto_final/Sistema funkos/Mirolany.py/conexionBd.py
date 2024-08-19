@@ -11,3 +11,11 @@ def crear_conexion():
 def cerrar_conexion(conexion):
     if conexion.is_connected():
         conexion.close()
+
+
+
+
+
+
+
+

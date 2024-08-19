@@ -26,3 +26,5 @@ class Cliente:
         cursor.execute(query, (nombre, email, direccion, telefono, contraseña))
         conexion.commit()
         cursor.close()
+
+

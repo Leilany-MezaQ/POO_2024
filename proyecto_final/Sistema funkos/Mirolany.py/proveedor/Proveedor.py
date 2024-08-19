@@ -23,3 +23,8 @@ class Proveedor:
         proveedores = cursor.fetchall()
         cursor.close()
         return [Proveedor(p['id'], p['nombre'], p['direccion'], p['telefono']) for p in proveedores]
+
+
+
+
+

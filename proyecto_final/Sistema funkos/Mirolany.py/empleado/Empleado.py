@@ -27,3 +27,7 @@ class Empleado:
         conexion.commit()
         cursor.close()
 
+
+
+
+

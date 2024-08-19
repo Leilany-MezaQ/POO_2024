@@ -23,3 +23,9 @@ class Producto:
         productos = cursor.fetchall()
         cursor.close()
         return [Producto(p['id'], p['nombre'], p['precio'], p['cantidad']) for p in productos]
+
+
+
+
+
+

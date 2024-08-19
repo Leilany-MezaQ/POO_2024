@@ -11,3 +11,8 @@ class Inventario:
         resultados = cursor.fetchall()
         inventarios = [Inventario(r['id'], r['producto_id'], r['cantidad']) for r in resultados]
         return inventarios
+
+
+
+
+
