@@ -1,4 +1,3 @@
-
 from conexionBD import *
 
 class Nota:

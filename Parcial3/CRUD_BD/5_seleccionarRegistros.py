@@ -1,14 +1,16 @@
-from conexionBd import *
+from conexionBD import *
 
+import os
+os.system("cls")
 try:
     micursor=conexion.cursor()
-    sql="select * from clientes"
+    sql="SELECT * FROM clientes"
     micursor.execute(sql)
-
-    #crear un objeto para enviar el resultado de la ejecucion del execute para posteriormente mostrar con un ciclo
     resultado=micursor.fetchall()
 except:
-    print(f"ocurrio un error")
+    print('Error en la selección de los registros')
+
+
 else:
-    for x in resultado:
-        print(x)
+    for i in resultado:
+        print(i)

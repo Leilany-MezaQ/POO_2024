@@ -1,26 +1,22 @@
 import mysql.connector
 
+# Conexión a la base de datos
 try:
-    conexion=mysql.connector.connect(
-    host='localhost',
-    user='root',
-    password='',
-)
+    conexion = mysql.connector.connect(
+        host='127.0.0.1',
+        user='root',
+        password='',
+    )
 except:
-    print("ocurrio un error")
+    print('Error en la creación de la base de datos')
 else:
-#crear un objeto de tipo cursor que permita ejecutar instrucciones SQL
-  micursor=conexion.curosr()
-  
-  sql="create database bd_python"
-  #Ejecutar la consulta  SQL
-  micursor.execute(sql)
-  
-  if micursor:
-      print(f"Se creo la base de datos exitosamente")
-      
-      #Mostrar las bases de datos que existen en el servidor MYSQL
-      micursor.execute("show database")
-      
-      for x in micursor:
-          print(x)
+    micursor=conexion.cursor()
+    sql=("CREATE DATABASE bd_python")
+    # Ejecutar la sentencia SQL
+    micursor.execute(sql)
+
+    if micursor:
+        print('Base de datos creada con éxito')
+    micursor.execute("SHOW DATABASES")   
+    for i in micursor:
+        print(i)

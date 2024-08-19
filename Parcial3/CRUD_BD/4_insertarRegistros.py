@@ -1,23 +1,15 @@
-from conexionBd import *
-
+from conexionBD import *
 
 try:
     micursor=conexion.cursor()
-    id=input("¿cual es su id?")
-    nombre=input("¿cual es el nombre?")
-    direccion=input("¿cual es tu direccion?")
-    tel=input("¿cual es su número de telefono?")
-    #sql="INSERT INTO clientes (id,nombre,direccion,tel) values (null,'daniel contreras','colonia centro','6181234567')"
-    sql="INSERT INTO clientes (id,nombre,direccion,tel) values (null,%s,%s,%s)"
-    valores=(nombre,direccion,tel)
-    micursor.execute(sql,valores)
-    
-    
-#sirve para finalizar la ejecución de SQL
+    nombre=input('Ingrese el nombre del cliente: ')
+    direccion=input('Ingrese la dirección del cliente: ')
+    tel=input('Ingrese el teléfono del cliente: ')
+    sql="INSERT INTO clientes (id, nombre, direccion, tel) VALUES (NULL, '"+nombre+"', '"+direccion+"','"+tel+"');"
+    # sql="INSERT INTO clientes (id, nombre, direccion, tel) VALUES (NULL, 'Leonardo Vallejo', '5 de Febrero','6182563698');"
+    micursor.execute(sql)
     conexion.commit()
 except:
-    print(f"Ocurrio un problema, revise")
-
+    print('Error en la inserción del registro')
 else:
-    print(f"registro insertado exitosamente")
-
+    print('Registro insertado con éxito')

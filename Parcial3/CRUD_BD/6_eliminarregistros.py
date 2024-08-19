@@ -1,12 +1,16 @@
-from conexionBd import *
+from conexionBD import *
+
+import os
+os.system("cls")
+
 try:
     micursor=conexion.cursor()
-
-    sql="delete from clientes where id=3"
-
+    id = input("Ingrese el ID del registro a eliminar: ")
+    sql = f"DELETE FROM clientes WHERE id = {id}"
     micursor.execute(sql)
     conexion.commit()
 except:
-    print(f"ocurrio un error")
+    print('Error en la eliminación del registro')
+
 else:
-    print("Registro eliminado exitosamente")
+    print("Registro eliminado con exito")
